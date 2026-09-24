@@ -38,13 +38,7 @@ p{margin:0 0 24px}
 .method-card{padding:32px 28px;background:#fff;border:1px solid var(--line);border-radius:20px;box-shadow:0 8px 25px rgba(100,50,75,.06)}
 .number{color:var(--main);font-size:34px;font-weight:700;line-height:1}
 .price-section{background:linear-gradient(180deg,#fff,#F9EEF4)}
-.price-card{padding:55px;text-align:center;background:#fff;border:1px solid rgba(219,112,147,.28);border-radius:28px;box-shadow:0 18px 50px rgba(120,60,85,.13)}
-.price{color:var(--main-dark);font-size:clamp(42px,7vw,66px);font-weight:700;line-height:1.2}
-.price span{margin-left:5px;font-size:25px}
 .tax,.payment-note{color:var(--muted)}
-.program-items{display:grid;gap:12px;margin:38px 0;text-align:left}
-.program-items div{display:flex;justify-content:space-between;gap:20px;padding:18px 20px;border-radius:12px;background:#FDF5F8;border:1px solid #F0DDE5}
-.program-items span{color:var(--muted)}
 .payment-note{font-size:14px}
 .button{display:inline-flex;align-items:center;justify-content:center;min-height:58px;padding:15px 32px;border-radius:999px;text-decoration:none;font-weight:700;letter-spacing:.08em;transition:.2s}
 .button:hover{transform:translateY(-2px)}
@@ -70,11 +64,10 @@ footer p{margin:0}
 .hero-image{min-height:430px;object-fit:cover}
 .hero-cta{left:50%;bottom:24px;width:calc(100% - 40px);transform:translateX(-50%);text-align:center}
 .hero-cta .button{width:100%}.two-col,.method-grid{grid-template-columns:1fr}
-.message-box,.highlight,.change-card,.price-card{padding:30px 23px}
-.program-items div{display:block}.program-items span{display:block;margin-top:4px}
+.message-box,.highlight,.change-card{padding:30px 23px}
 }
 @media(max-width:520px){
 body{font-size:15px}.hero-image{min-height:390px}.emphasis{font-size:18px;padding:20px}
 .check-list li,.for-list li{padding-left:43px}.quote-card{padding:30px 22px;font-size:17px}
-.price{font-size:44px}.button{width:100%;padding-left:20px;padding-right:20px}.final-cta{padding:85px 0}
+.button{width:100%;padding-left:20px;padding-right:20px}.final-cta{padding:85px 0}
 }
